@@ -3,21 +3,22 @@
 
 ## Applications
 
-1Password
-Chrome
-Firefox
-KeepingYouAwake
-Alfred
-iTerm 3
-VSCode
-Viscosity
-Slack
-Magnet
-Evernote
-Pocket
-Docker Desktop
-Medis
-Fork
+Install the following:
+- 1Password
+- Chrome
+- Firefox
+- KeepingYouAwake
+- Alfred
+- iTerm 3
+- VSCode
+- Viscosity
+- Slack
+- Magnet
+- Evernote
+- Pocket
+- Docker Desktop
+- Medis
+- Fork
 
 
 ## Configuration
