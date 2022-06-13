@@ -78,6 +78,16 @@ Notification Settings
 
 - `zsh` is now bundled with macOS
 - Install [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh)
+  ```
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   ```
+- Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+  - Install plugin
+    ```
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    ```
+  - Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
+  - Follow setup wizard on first run
 
 
 ### GitHub
@@ -126,7 +136,7 @@ brew install awscli
 
 ## Fonts
 
-### Fixed Width Fonts
+### Optional Width Fonts
 - [Droid Sans Mono for Powerline](https://github.com/powerline/fonts/blob/master/DroidSansMono/Droid%20Sans%20Mono%20for%20Powerline.otf)
 - [Fira Code](https://github.com/tonsky/FiraCode)
 - [IBM Plex Mono](https://github.com/IBM/plex/releases/latest)
