@@ -88,7 +88,10 @@ Notification Settings
     ```
   - Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
   - Follow setup wizard on first run
-
+- Setup aliases:
+  ```
+  alias fork="open -a /Applications/Fork.app"
+  ```
 
 ### Node Version Manager
 
