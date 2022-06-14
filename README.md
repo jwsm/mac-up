@@ -90,6 +90,11 @@ Notification Settings
   - Follow setup wizard on first run
 
 
+### Node Version Manager
+
+- Install nvm using the updates script on its [website](https://github.com/nvm-sh/nvm#install--update-script) (not Homebrew)
+
+
 ### GitHub
 
 - In GitHub Settings > Developer, create a new access token for the mac
