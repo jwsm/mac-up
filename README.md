@@ -45,7 +45,7 @@ defaults write -g KeyRepeat -int 2
 
 Enable press and hold to repeat keystrokes
 ```
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 ```
 
 > Logout/Login to apply
