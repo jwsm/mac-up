@@ -91,6 +91,8 @@ Notification Settings
 - Setup aliases:
   ```
   alias fork="open -a /Applications/Fork.app"
+  alias tf="terraform"
+  alias whatsmyip="curl -s http://checkip.amazonaws.com"
   ```
 
 ### Node Version Manager
