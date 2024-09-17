@@ -181,7 +181,7 @@ source ~/.virtualenvs/djangodev/bin/activate
 
 ## Docker Compose Compatibility
 
-To allow running `docker-compose` in newer versions of Docker, make sure to remove existing symlinks, and then run:
+To allow running `docker-compose` in newer versions of Docker, make sure to remove existing symlinks, and then run: ([source](https://stackoverflow.com/a/72187587)]
 ```
 echo 'docker compose --compatibility "$@"' | sudo tee -a /usr/local/bin/docker-compose && sudo chmod +x /usr/local/bin/docker-compose
 ```
