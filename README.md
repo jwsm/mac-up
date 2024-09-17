@@ -175,3 +175,14 @@ mkdir ~/.virtualenvs
 python3 -m venv ~/.virtualenvs/djangodev
 source ~/.virtualenvs/djangodev/bin/activate
 ```
+
+
+# Misc
+
+## Docker Compose Compatibility
+
+To allow running `docker-compose` in newer versions of Docker, make sure to remove existing symlinks, and then run:
+```
+echo 'docker compose --compatibility "$@"' | sudo tee -a /usr/local/bin/docker-compose && sudo chmod +x /usr/local/bin/docker-compose
+```
+
